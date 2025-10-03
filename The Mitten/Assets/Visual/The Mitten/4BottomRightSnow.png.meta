@@ -1,10 +1,10 @@
 fileFormatVersion: 2
-guid: 3cdaeb97b36d4cd4f895484fa19ee915
+guid: 37358c6392d4e384496e57b5a0b8efd5
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 1254958308094377585
-    second: Water_Background_0
+      213: -2227723231158880146
+    second: 4BottomRightSnow_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -113,13 +113,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Water_Background_0
+      name: 4BottomRightSnow_0
       rect:
         serializedVersion: 2
         x: 0
         y: 0
-        width: 1024
-        height: 1024
+        width: 512
+        height: 512
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -128,8 +128,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 17ef3e1aee18a6110800000000000000
-      internalID: 1254958308094377585
+      spriteID: e68b3e436898511e0800000000000000
+      internalID: -2227723231158880146
       vertices: []
       indices: 
       edges: []
@@ -148,7 +148,7 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      Water_Background_0: 1254958308094377585
+      4BottomRightSnow_0: -2227723231158880146
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

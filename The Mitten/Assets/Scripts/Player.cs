@@ -83,6 +83,7 @@ public class Player : MonoBehaviour
     {
         if (collision.gameObject.tag == "Damage")
         {
+            Debug.Log("Damage tag");
             health -= 25;
             rb.linearVelocity = new Vector2(rb.linearVelocity.x, jumpForce);
             StartCoroutine(BlinkRed());
@@ -94,10 +95,12 @@ public class Player : MonoBehaviour
         }
         if (collision.gameObject.tag == "InstaDeath")
         {
+            Debug.Log("Instadeath tag");
             Die();
         }
         if (collision.gameObject.tag == "Mitten")
         {
+            Debug.Log("Mitten tag");
             if (mouse == 1)
             {
                 Time.timeScale = 0;

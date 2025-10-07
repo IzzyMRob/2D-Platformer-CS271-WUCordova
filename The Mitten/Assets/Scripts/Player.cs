@@ -13,25 +13,31 @@ public class Player : MonoBehaviour
     public LayerMask groundLayer;
     public Image healthImage;
     public GameObject winUI;
+    public ParticleSystem landParticles;
+    public GameObject noMouseUI;
 
 
     private Rigidbody2D rb;
     private bool isGrounded;
     private Animator animator;
     private SpriteRenderer spriteRenderer;
+    private bool jumped = false;
+    private float noMouseTime = 3f;
+
     void Start()
     {
         rb = GetComponent<Rigidbody2D>();
         animator = GetComponent<Animator>();
         spriteRenderer = GetComponent<SpriteRenderer>();
         winUI.SetActive(false);
+        noMouseUI.SetActive(false);
     }
 
     void Update()
     {
         float moveInput = Input.GetAxis("Horizontal");
         rb.linearVelocity = new Vector2(moveInput * moveSpeed, rb.linearVelocity.y);
-        if (Input.GetKeyDown(KeyCode.Space) && isGrounded)
+        if (Input.GetKeyDown(KeyCode.Space) && Physics2D.OverlapCircle(groundCheck.position, groundCheckRadius, groundLayer))
         {
             rb.linearVelocity = new Vector2(rb.linearVelocity.x, jumpForce);
         }
@@ -50,6 +56,11 @@ public class Player : MonoBehaviour
         if (Input.GetAxis("Horizontal") < 0)
         {
             gameObject.transform.localScale = new Vector3(-1, 1, 1);
+        }
+        if (isGrounded && jumped)
+        {
+            landParticles.Play();
+            jumped = false;
         }
     }
 
@@ -75,6 +86,7 @@ public class Player : MonoBehaviour
             else
             {
                 animator.Play("Player_Fall");
+                jumped = true;
             }
         }
     }
@@ -106,7 +118,19 @@ public class Player : MonoBehaviour
                 Time.timeScale = 0;
                 winUI.SetActive(true);
             }
+            else
+            {
+                noMouseUI.SetActive(true);
+                StartCoroutine(DeactivateObject(noMouseUI));
+
+            }
         }
+    }
+
+    private IEnumerator DeactivateObject(GameObject gameObject)
+    {
+        yield return new WaitForSeconds(noMouseTime); // Wait for 'delay' seconds
+        gameObject.SetActive(false); // Deactivate the object
     }
 
     private IEnumerator BlinkRed()

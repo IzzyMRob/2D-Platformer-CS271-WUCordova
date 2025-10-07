@@ -66,9 +66,9 @@ Polish & Presentation:
 ## Extensions Implemented
 
 ### 1. Audio (2 points)
-**Implementation**: 
-**Game Impact**: 
-**Technical Details**: 
+**Implementation**: I found sound assets in the Unity Store and imported them, the music just got added to the scene on a loop and the jump landing is called in the same place as the landing particle effect.
+**Game Impact**: Adds immersion and feedback to the player jumps, a more upbeat feling as well.
+**Technical Details**: Imported the files and added them to audio sources, one called in code and one constantly looping.
 **Known Issues**: N/A
 
 ### 2. Animations (2 points)
@@ -133,6 +133,8 @@ Polish & Presentation:
 - Visual Assets:
   - All visuals made by me using the software "Pixel Studio"
 - Sound Assets:
+  - Background Music: domi.wav on the Unity Asset Store
+  - Jump Land Sound: KING BALTHAZAR on the Unity Asset Store
 - Implimentation Help:
   - 2D Platformer tutorial from "Unity Unlocked" (https://www.youtube.com/@UnityUnlocked)
 - Inspiration:

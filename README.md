@@ -16,19 +16,44 @@ Run and jump your way through the snow, but make sure you avoid the sharp rocks 
   - Use the space bar to jump.
 
 ### How to Play
-Start somewhere in the frozen forest, run and jump your way through the level to reach the warm mitten! Explore every path you see to find your friend along the way, after all, comfort is always better shared.
+Start somewhere in the frozen forest, make your way through the level to reach the warm mitten! Explore every path you see to find your friend along the way, after all, comfort is always better shared.
+
+There is no timer or scoring system, just focus on playing through the puzzle and having fun! This game is designed to be a cozy adaptation of a beloved book from my childhood, not an intense platformer.
 
 ## Base Game Implementation
 
 ### Completion Status
-- [x] Player movement and controls
-- [x] Obstacle system
-- [x] Collision detection
-- [x] Score system
-- [x] Game over state
-- [X] Player Animations
-- [X] Health Bar
-- [ ] Multiple Levels
+
+Base:
+
+- [x] Levels
+- [x] Sprites
+- [x] Prefabs
+- [x] Colliders
+- [x] Ridigbodies
+- [X] Triggers
+- [X] UI Text
+- [X] Sprite Movement
+- [X] Particle System
+- [X] GameObject Movement
+- [X] Game Release
+
+Advanced Features:
+
+- [ ] Audio (2)
+- [X] Animations (2)
+- [X] Menu (2)
+
+Creativity & Innovation:
+
+- [X] Original Art (2)
+- [X] Compelling Narrative (2)????
+
+Polish & Presentation:
+
+- [X] Game Trailer (3)
+- [ ] Cross-Platform Build (2)
+
 
 ### Known Bugs
 - When jumping sometimes the bear gets stuck on the edges of tiles, this doesnt let them get up (ie. it's not a cheat) but it looks bad.
@@ -55,7 +80,7 @@ Start somewhere in the frozen forest, run and jump your way through the level to
   - *The Mitten* by Jan Brett
 
 ## Reflection
-**Total Points Claimed**: [Base: 80% + Extensions: X% = Total%]
+**Total Points Claimed**: Base 80% + Extentions 14 points
 **Challenges**: [What was difficult]
 **Learning Outcomes**: [What you learned]
 

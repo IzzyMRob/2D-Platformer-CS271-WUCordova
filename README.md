@@ -142,9 +142,11 @@ Polish & Presentation:
 
 ## Reflection
 **Total Points Claimed**: Base 80% + Extentions 14 points
+
 **Challenges**: 
 - Getting my custom assets to import in the correct size and mesh well together took a lot of troubleshooting to get perfect.
 - Moving from the first scene to the second within the game was confusing at first.
+
 **Learning Outcomes**:
 - I learned a lot about how to impliment interactions and UI elements in Unity C# scripts. I feel a lot more confident now on future projects!
 - I am super confortable making tilesheets now, I really hope I can keep making my own assets for more projects!!

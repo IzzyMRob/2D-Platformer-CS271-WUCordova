@@ -40,9 +40,9 @@ Base:
 
 Advanced Features:
 
-- [ ] Audio (2)
+- [X] Audio (2)
 - [X] Animations (2)
-- [ ] Menu (2)
+- [X] Menu (2)
 
 Creativity & Innovation:
 
@@ -52,8 +52,6 @@ Creativity & Innovation:
 Polish & Presentation:
 
 - [X] Game Trailer (3)
-- [ ] Cross-Platform Build (2)
-
 
 ### Known Bugs
 - When jumping sometimes the bear gets stuck on the edges of tiles, this doesnt let them get up (ie. it's not a cheat) but it looks bad.
@@ -71,6 +69,7 @@ Polish & Presentation:
 **Technical Details**: Imported the files and added them to audio sources, one called in code and one constantly looping.
 **Known Issues**: N/A
 
+
 ### 2. Animations (2 points)
 **Implementation**: I created custom animations for each action that could happen, eg. idle, walking, jumping up, and falling. ThenI used a script to set which animation was active based on how the player was currently moving. Meaning no movement was idle, moving left or right was walking, a positive velocity was jumping, and negative was falling.
 
@@ -80,6 +79,7 @@ Polish & Presentation:
 
 **Known Issues**: N/A
 
+
 ### 3. Menu (2 points)
 **Implementation**: A menu pops up when the player reaches the mitten with the mouse prompting them to restart the level. If clicked it starts the scene from the beginning.
 
@@ -88,6 +88,7 @@ Polish & Presentation:
 **Technical Details**: I set the UI active when the player reaches the mitten and is carrying the mouse, and the button call function is just restarting the scene.
 
 **Known Issues**: N/A
+
 
 ### 4. Original Art (2 points)
 
@@ -101,6 +102,7 @@ Polish & Presentation:
 
 **Known Issues**: The corner tiles have a sharp edge of the collider, so the bear can get stuck on it even with friction set all the way to 0. Not game-breaking or a way to cheat, but it doesn't look good.
 
+
 ### 5. Compelling Narrative (2 points) ??
 **Implementation**: I based the game theme on a kids book I really loved when I was younger, *The Mitten* by Jan Brett. I think it is an adorable story, and the art from it was always super comforting so I tried to imitate that with the fat bear and soft mitten sprites.
 
@@ -109,6 +111,7 @@ Polish & Presentation:
 **Technical Details**: Drove how I defined the win condition (carrying the mouse and reaching the mitten).
 
 **Known Issues**: N/A
+
 
 ### 6. Game Trailer (3 points)
 **Implementation**: I recorded myself playing a level and edited it together in Capcut. It was supposed to be a little silly, given that the game isn't super dramatic and I only had access to limited video editing skills and free assets.
@@ -119,14 +122,6 @@ Polish & Presentation:
 
 **Known Issues**: N/A
 
-### 7. Cross-Platform Implementation (2 points)
-**Implementation**: 
-
-**Game Impact**: 
-
-**Technical Details**: 
-
-**Known Issues**: N/A
 
 ## Credits
 - Created with Unity 6
@@ -139,11 +134,11 @@ Polish & Presentation:
   - 2D Platformer tutorial from "Unity Unlocked" (https://www.youtube.com/@UnityUnlocked)
 - Inspiration:
   - *The Mitten* by Jan Brett
-- Video Editing:
+- Gameplay Trailer:
   - Software + Confetti Effect done in Capcut
 
 ## Reflection
-**Total Points Claimed**: Base 80% + Extentions 14 points
+**Total Points Claimed**: Base 80% + Extentions 12? points (see original art extention)
 
 **Challenges**: 
 - Getting my custom assets to import in the correct size and mesh well together took a lot of troubleshooting to get perfect.

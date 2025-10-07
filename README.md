@@ -90,7 +90,8 @@ Polish & Presentation:
 **Known Issues**: N/A
 
 ### 4. Original Art (2 points)
-- I would like to request that the score for creating original art be changed from 2 points to 3 points, so that it is the same amount as creating a game trailer. I personally spent a lot more time and effort creating the assets than the video, especially with all the custom animations and multiple tiles each needing individual sprites. I believe that creating your own assets is a worthwhile endevour to increase the player immersion and your own connection to your game. I also think that 3 points is more in line with the other standards for this assignment. Thank you for your consideration.
+
+**Grading Request**: I would like to request that the score for creating original art be changed from 2 points to 3 points, so that it is the same amount as creating a game trailer. I personally spent a lot more time and effort creating the assets than the video, especially with all the custom animations and multiple tiles each needing individual sprites. I believe that creating your own assets is a worthwhile endevour to increase the player immersion and your own connection to your game. I also think that 3 points is more in line with the other standards for this assignment. Thank you for your consideration.
 
 **Implementation**: I created custom sprites in the PixelStudio software and imported them into Unity. The bear was always just a simple 2D sprite with slight variations, the animations just switch between different ones. All of the environment is in a Tilesheet. Everything is created as 32x32px, imported as 512x512px for clarity.
 

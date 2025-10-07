@@ -73,39 +73,58 @@ Polish & Presentation:
 
 ### 2. Animations (2 points)
 **Implementation**: I created custom animations for each action that could happen, eg. idle, walking, jumping up, and falling. ThenI used a script to set which animation was active based on how the player was currently moving. Meaning no movement was idle, moving left or right was walking, a positive velocity was jumping, and negative was falling.
+
 **Game Impact**: It makes the bear a lot more interactive, and provides lots of feedback to player input.
+
 **Technical Details**: Int lengthened the Player script and I had to check for more values, but it wasn't super difficult once I understood how to activate animations.
+
 **Known Issues**: N/A
 
 ### 3. Menu (2 points)
 **Implementation**: A menu pops up when the player reaches the mitten with the mouse prompting them to restart the level. If clicked it starts the scene from the beginning.
+
 **Game Impact**: Provides a concrete end to the game when it is won, and lets the player re-play if they want.
+
 **Technical Details**: I set the UI active when the player reaches the mitten and is carrying the mouse, and the button call function is just restarting the scene.
+
 **Known Issues**: N/A
 
 ### 4. Original Art (2 points)
 - I would like to request that the score for creating original art be changed from 2 points to 3 points, so that it is the same amount as creating a game trailer. I personally spent a lot more time and effort creating the assets than the video, especially with all the custom animations and multiple tiles each needing individual sprites. I believe that creating your own assets is a worthwhile endevour to increase the immersion and connection to your game. I also think that 3 points is more in line with the other standards for this assignment. Thank you for your consideration.
+
 **Implementation**: I created custom sprites in the PixelStudio software and imported them into Unity. The bear was always just a simple 2D sprite with slight variations, the animations just switch between different ones. All of the environment is in a Tilesheet. Everything is created as 32x32px, imported as 512x512px for clarity.
+
 **Game Impact**: Made it easy to create the level once I had the tag interactions set in the Player script. Meant everything lined up in a grid, fitting the pixel art theme.
+
 **Technical Details**: The ground, obstacles, and instructions are all imported into a tilesheet. Then each different type of tile (ground, damaging obstacles, instant death obstacles, and instructions) was put on a different tilesheet layer with a tag corresponding to how to interact with it.
+
 **Known Issues**: The corner tiles have a sharp edge of the collider, so the bear can get stuck on it even with friction set all the way to 0. Not game-breaking or a way to cheat, but it doesn't look good.
 
 ### 5. Compelling Narrative (2 points) ??
 **Implementation**: I based the game theme on a kids book I really loved when I was younger, *The Mitten* by Jan Brett. I think it is an adorable story, and the art from it was always super comforting so I tried to imitate that with the fat bear and soft mitten sprites.
+
 **Game Impact**: Gave it a overarching story and motivates why you need to collect the mouse before winning.
+
 **Technical Details**: Drove how I defined the win condition (carrying the mouse and reaching the mitten).
+
 **Known Issues**: N/A
 
 ### 6. Game Trailer (3 points)
 **Implementation**: I recorded myself playing a level and edited it together in Capcut. It was supposed to be a little silly, given that the game isn't super dramatic and I only had access to limited video editing skills and free assets.
+
 **Game Impact**: Gives players a quick intro to the game before they play it in case the description isn't enough or they want to see it.
+
 **Technical Details**: Screen recorded a video and edited it in Capcut.
+
 **Known Issues**: N/A
 
 ### 7. Cross-Platform Implementation (2 points)
 **Implementation**: 
+
 **Game Impact**: 
+
 **Technical Details**: 
+
 **Known Issues**: N/A
 
 ## Credits
